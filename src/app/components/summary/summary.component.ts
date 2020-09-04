@@ -11,7 +11,6 @@ export class SummaryComponent {
   
   isNegative(){
     return (this.stock && this.stock.change < 0);
-    // return true;
   }
 
   isPositive() {
